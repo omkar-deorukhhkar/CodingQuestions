@@ -1,0 +1,17 @@
+XOR(^) is used in this problem to find out the missing number.
+
+a ^ b = (a AND ~b) OR (~a AND b)
+x ^ 0 = x
+x ^ y = y ^ x (Commutativity)
+A sequence of XOR operations can remove duplicates without affecting the result.
+a ^ b ^ c ^ d ...
+Some applications of XOR-
+1. Find missing number
+2. Swap
+3. Find Duplicate Number
+4. Find 2 missing/duplicate numbers
+
+u ^ v can be partitioned by the logic that where there is 0, u & v have same bits, and where there is 1, u & v
+have different bits.
+
+Ref. - https://florian.github.io/xor-trick/
